@@ -1,12 +1,12 @@
 const container = document.querySelector("#content");
 
 // Home Page Main Function ⭐
-export const homePage = (() => {
+export const homePage = () => {
   container.classList.add("homepage"); // for css design
   welcomeHeading("Welcome To");
   HomeimageCreator();
   bottomHeading();
-})();
+};
 
 // Welcome Text Creator
 function welcomeHeading(text) {
